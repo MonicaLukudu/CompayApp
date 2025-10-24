@@ -6,8 +6,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>practice_cloning</title>
   </head>
-  <body>
-    <h1 class="text-6xl
-    ">MOnica</h1>
+  <body class="">
+    <header class="bg-[url('/public/image.webp')] bg-top bg-cover h-[90vh] ">
+      <!-- nav1 -->
+      <nav class="flex item-center justify-between w-[92%] mx-auto px-4 py-4">
+        <div>
+          <img class="w-60 brightness-0 invert" src="/public/logo.svg" alt="logo">
+        </div>
+        <div class="flex items-center">
+          <ul class="flex item-center gap-4">
+            <li><a class="text-[1rem] font-semibold text-white hover:underline" href="">News</a></li>
+            <li><a class="text-[1rem] font-semibold text-white hover:underline" href="">Jobs</a></li>
+            <li><a class="text-[1rem] font-semibold text-white hover:underline" href="">Donate</a></li>
+            <li><a class="text-[1rem] font-semibold text-white hover:underline" href="">A-Z</a></li>
+            <li><a class="text-[1rem] font-semibold text-white hover:underline" href="">Alumni</a></li>
+            <li><a class="text-[1rem] font-semibold text-white hover:underline" href="">Staff</a></li>
+            <li><a class="text-[1rem] font-semibold text-white hover:underline" href="">Students</a></li>
+          </ul>
+        </div>
+      </nav>
+      <!-- nav2 -->
+      <nav class="flex item-center justify-between w-[92%] mx-auto px-4 py-4">
+        <div class="flex items-center gap-4">
+          <ul class="flex items-center gap-6">
+            <li><a class="flex items-center text-[1.2rem] font-semibold text-white hover:underline" href="">Study <img class="w-5 ml-1" src="/public/downarrow.svg" alt=""></a></li>
+            <li><a class="flex items-center text-[1.2rem] font-semibold text-white hover:underline" href="">Student life <img class="w-5 ml-1" src="/public/downarrow.svg" alt=""></a></li>
+            <li><a class="flex items-center text-[1.2rem] font-semibold text-white hover:underline" href="">Reseach and innovation <img class="w-5 ml-1" src="/public/downarrow.svg" alt=""></a></li>
+            <li><a class="flex items-center text-[1.2rem] font-semibold text-white hover:underline" href="">Global <img class="w-5 ml-1" src="/public/downarrow.svg" alt=""></a></li>
+            <li><a class="flex items-center text-[1.2rem] font-semibold text-white hover:underline" href="">About Us <img class="w-5 ml-1" src="/public/downarrow.svg" alt=""></a></li>
+          </ul>
+        </div>
+        <div class="flex items-center justify-between">
+          <img class="w-5 mr-3 text-white" src="/public/search.svg" alt="searchIcon">
+          <h1 class="font-semibold text-white hover:underline">Seach the site</h1>
+        </div>
+      </nav>
+       
+      <div class="mx-auto my-8 px-4 py-4 w-[92%]">
+        <h1 class="text-white border-2 border-solid w-xl font-bold p-4 text-[3rem]">MAKE 2026 YOUR YEAR</h1>
+        <p class="text-white border-2 border-solid w-152 p-4 text-[1.5rem] mb-12">We offer a range of master's courses in business and management, allied health, computer science and engineering all available to start in January 2026.</p>
+
+        <button class="text-white text-xl  border-2 p-4 flex"> Discover our January courses <img class="w-5 ml-1" src="/public/rightarrow.svg" alt=""></button>
+      </div>
+
+      <div class="flex flex-col bg-[#212b58]">
+        <div class="flex justify-center gap-10 w-[92%] items-center mx-auto py-8">
+          <h1 class="font-bold text-white text-2xl">Find your course</h1>
+          <input class="bg-white p-4 w-2xl" type="text">
+          
+          <button class="border-2 border-white text-[17px] text-white px-6 py-3.5">Search</button>
+          <div>
+            <h1 class="text-white text-[18px] hover:underline">Courses by A-Z</h1>
+            <h1 class="text-white text-[18px] hover:underline">Courses by subject</h1>
+          </div>
+        </div>
+
+        <div class="flex justify-center gap-12 w-[92%] items-center mx-auto">
+          <label class="text-2xl font-semibold text-white">
+            <input type="radio" name="courseType" value="a-z"> Undergraduate
+          </label>
+          <label class="text-2xl font-semibold text-white">
+            <input type="radio" name="courseType" value="subject"> Postgraduate taught
+          </label>
+          <label class="text-2xl font-semibold text-white">
+            <input type="radio" name="courseType" value="subject"> Postgraduate Research
+          </label>
+        </div>
+      </div>
+    </header>
+    
   </body>
 </html>
